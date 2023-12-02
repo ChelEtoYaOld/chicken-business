@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: url("./bg.jpg") center/cover no-repeat;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./soil.jpg");
+    background-size: cover;
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image: url("./truba.png");
+    background-size: cover;
+}
+
+#board div img {
+    width: 100px;
+    height: 100px;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+/* .restart-button{
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+} */
